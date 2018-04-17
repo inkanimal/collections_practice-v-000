@@ -30,8 +30,8 @@ def kesha_maker(str)
    
 end
 
-def find_a(arr,letter)
-  arr.select { |str| str.start_with?(letter) }
+def find_a(arr)
+  arr.select { |str| str.start_with?("a") }
 end
 
 
