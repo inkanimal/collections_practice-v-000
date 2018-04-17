@@ -45,3 +45,4 @@ def add_s(array)
    "#{index[1]}" !"s"
   end
 end
+end
