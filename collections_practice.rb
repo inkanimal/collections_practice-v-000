@@ -25,7 +25,7 @@ def reverse_array(num)
   end
   
 def kesha_maker(str)
-  str.each.remove(3)
+  str.delete do |str| str.length(3)
    
 end
 
