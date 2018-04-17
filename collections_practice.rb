@@ -41,8 +41,11 @@ end
 
 def add_s(array)
   array.each_with_index.collect do |element, index|
-   "#{element}" + "s" 
-   "#{index[1]}" !"s"
+   if "#{index[1]}" = element
+     element
+  end
+   else
+     "#{element}" + "s"
   end
 end
-end
+     
