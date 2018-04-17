@@ -25,8 +25,7 @@ def reverse_array(num)
   end
   
 def kesha_maker(str)
-  #dollar = []
- # str.each
+  str.split("").each_slice(3).map(&:join)
    
 end
 
