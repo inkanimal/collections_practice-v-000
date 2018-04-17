@@ -30,8 +30,11 @@ def kesha_maker(str)
    
 end
 
-def find_a(array)
+def find_a(arr,letter)
+  arr.select { |str| str.start_with?(letter) }
 end
+end
+
 
 def sum_array(array)
   array.inject(0){|sum,x| sum + x }
