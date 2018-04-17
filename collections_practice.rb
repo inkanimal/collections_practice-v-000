@@ -25,7 +25,7 @@ def reverse_array(num)
   end
   
 def kesha_maker(str)
-   str.map do |element| element.gsub 
+   str.map do |element| element.gsub(element.length(3), "$")
   end 
 
 end
