@@ -33,7 +33,7 @@ end
 def find_a(arr,letter)
   arr.select { |str| str.start_with?(letter) }
 end
-end
+
 
 
 def sum_array(array)
